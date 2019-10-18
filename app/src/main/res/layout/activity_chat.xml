@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    android:id="@+id/chatactivitityid"
+    android:layout_columnWeight=""
+    >
+
+
+    <EditText
+        android:id="@+id/typemsg"
+        android:layout_width="349dp"
+        android:layout_height="55dp"
+        android:layout_weight="2"
+
+        android:foregroundGravity="bottom"
+        android:gravity="bottom"
+        android:inputType="textLongMessage"
+
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <ImageView
+        android:id="@+id/chatsend"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_send_black_24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

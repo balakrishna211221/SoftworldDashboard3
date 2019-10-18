@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <item android:id="@+id/chat_to_home"
+            android:title="Home"
+            android:icon="@android:drawable/ic_menu_share"
+         app:showAsAction="never" />
+
+        <item
+            android:id="@+id/setting"
+            android:title="Settings"
+            android:orderInCategory="101"
+            app:showAsAction="never"
+          >
+
+            <menu>
+
+                <item android:id="@+id/ChatMenuFont"
+
+                    app:showAsAction="never"
+                    android:title="Font" />
+
+                <item android:id="@+id/ChatMenubackgound"
+
+                    app:showAsAction="ifRoom"
+                    android:title="Backgound" />
+
+            </menu>
+
+        </item>
+
+    </menu>

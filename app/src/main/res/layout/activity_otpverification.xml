@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".otpverification"
+    >
+    <ImageView
+        android:layout_marginTop="90dp"
+        style="@style/logo"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_uifb"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+       android:paddingBottom="70dp"
+        android:layout_alignParentRight="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OTP Verification"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_phone"
+            android:text="Enter Mobile OTP"
+            android:textColor="#000"
+            android:drawableLeft="@drawable/ic_phone" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="20dp"
+            android:layout_marginRight="10dp"
+            android:hint="OTP"
+            android:paddingBottom="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@drawable/ic_email"
+            android:paddingTop="20dp"
+            android:text="Enter Email OTP"
+            android:textColor="#000"
+            android:drawableLeft="@drawable/ic_email" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="20dp"
+            android:hint="OTP"
+            android:paddingBottom="10dp" />
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            android:id="@+id/otpbt"/>
+    </LinearLayout>
+</LinearLayout>

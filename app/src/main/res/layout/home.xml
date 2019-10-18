@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:layout_margin="3dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="classes scheduled"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:id="@+id/classes"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next Class will be on 2'O Clock"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <Button
+            android:id="@+id/resetpass"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:text="JOIN"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Want to know about Scheduled Classes?"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:textColor="#000"
+            android:id="@+id/scheduleclasses"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+            <ProgressBar
+                android:id="@+id/circularProgressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="50"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/circle"
+                android:secondaryProgress="100"
+                />
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#024977"
+                android:textSize="10dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foregroundGravity="center"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+            <ProgressBar
+
+                android:id="@+id/circularProgressbar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="50"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/circle"
+                android:secondaryProgress="100"
+                />
+
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#024977"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+            <ProgressBar
+
+                android:id="@+id/circularProgressbar3"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="50"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/circle"
+                android:secondaryProgress="100"
+                />
+
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+            <ProgressBar
+
+                android:id="@+id/circularProgressbar4"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="50"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/circle"
+                android:secondaryProgress="100"
+                />
+
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+            <ProgressBar
+
+                android:id="@+id/circularProgressbar5"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="50"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/circle"
+                android:secondaryProgress="100"
+                />
+
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

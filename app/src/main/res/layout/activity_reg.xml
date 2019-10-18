@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity"
+    android:background="@color/primary"
+    >
+    <ImageView
+        android:layout_marginTop="90dp"
+        android:id="@+id/slogo"
+        style="@style/logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogo"
+        android:background="@drawable/bt_uifb"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:paddingBottom="70dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="30dp"
+            android:text="REGISTER"
+            android:textColor="#000"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="New User?"
+            android:paddingTop="25dp"
+            android:textColor="#000"
+             />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:maxLength="30"
+            android:drawableStart="@drawable/ic_email"
+            android:hint="Email"
+            android:inputType="textPassword"
+            android:paddingTop="25dp"
+            android:textColor="@color/primary_light"
+            android:textColorHint="#5E5A5A"
+            android:drawableLeft="@drawable/ic_email" />
+
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:paddingTop="25dp"
+            android:drawableStart="@drawable/ic_phone"
+            android:hint="Mobile"
+            android:inputType="phone"
+            android:paddingBottom="20dp"
+            android:textColor="@color/primary_light"
+            android:textColorHint="#5E5A5A"
+            android:textColorLink="#fff"
+            android:drawableLeft="@drawable/ic_phone" />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            app:srcCompat="@android:drawable/ic_menu_send" />
+
+        <TextView
+            android:id="@+id/member"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingTop="25dp"
+            android:text="Already Member?"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
